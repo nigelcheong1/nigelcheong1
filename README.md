@@ -30,6 +30,25 @@ I enjoy building intelligent systems that go beyond model training — from **co
 
 ---
 
+## 🔬 Current Research
+
+I am currently working on **Medical Image Segmentation** for my thesis, with a focus on **semi-supervised 3D medical imaging** under limited labelled data.
+
+My research explores how **foundation models**, especially the **Segment Anything Model (SAM)**, can be adapted to improve segmentation reliability in medical imaging tasks. In particular, I am interested in combining **medical computer vision**, **semi-supervised learning**, and **prompt-based segmentation** to build more robust and data-efficient systems.
+
+### Current Focus Areas
+
+<p>
+  <img src="https://img.shields.io/badge/Medical%20Image%20Segmentation-3D%20Imaging-6C63FF?style=flat-square" />
+  <img src="https://img.shields.io/badge/Semi--Supervised%20Learning-Low%20Annotation-2E8B57?style=flat-square" />
+  <img src="https://img.shields.io/badge/Foundation%20Models-Medical%20Imaging-8A2BE2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Segment%20Anything%20Model-SAM-FF6F61?style=flat-square" />
+  <img src="https://img.shields.io/badge/3D%20Medical%20Imaging-MRI-007ACC?style=flat-square" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-Healthcare-009688?style=flat-square" />
+</p>
+
+---
+
 # Featured Projects
 
 <table>
