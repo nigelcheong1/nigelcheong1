@@ -1,15 +1,25 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=3000&pause=900&center=true&vCenter=true&width=700&color=58A6FF&lines=Hi%2C+I'm+Nigel+Cheong+%F0%9F%91%8B;AI+%26+Machine+Learning+Developer;Deep+Learning+%E2%80%A2+Computer+Vision;Reinforcement+Learning+%E2%80%A2+Intelligent+Agents;Building+AI+Systems+That+Actually+Work" alt="Typing SVG" />
+<img
+  src="https://raw.githubusercontent.com/nigelcheong1/nigelcheong1/main/assets/header.svg"
+  width="100%"
+  alt="Nigel Cheong - AI and Machine Learning"
+/>
+
+</div>
 
 <br/>
+
+<div align="center">
 
 <a href="https://www.linkedin.com/in/nigel-cheong-118378254/">
   <img src="https://img.shields.io/badge/LinkedIn-Nigel%20Cheong-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
+
 <a href="mailto:nigelcheong05@gmail.com">
   <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
+
 <img src="https://img.shields.io/badge/Location-Kuala%20Lumpur%2C%20Malaysia-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white" />
 
 </div>
