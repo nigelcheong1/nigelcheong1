@@ -16,21 +16,21 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 I'm **Nigel Cheong**, an AI and machine learning developer based in Kuala Lumpur, Malaysia.
 
 I enjoy building intelligent systems that go beyond model training — from **computer vision and deep learning** to **reinforcement learning agents, simulation, evaluation and real-world deployment**.
 
-* 🧠 Interested in **Artificial Intelligence & Machine Learning**
-* 👁️ Working with **Deep Learning & Computer Vision**
-* 🎮 Exploring **Reinforcement Learning & Intelligent Agents**
-* 🔬 Interested in turning research ideas into practical AI systems
-* ⚙️ I enjoy experimenting, benchmarking and improving models rather than treating AI as a black box
+* Interested in **Artificial Intelligence & Machine Learning**
+* Working with **Deep Learning & Computer Vision**
+* Exploring **Reinforcement Learning & Intelligent Agents**
+* Interested in turning research ideas into practical AI systems
+* I enjoy experimenting, benchmarking and improving models rather than treating AI as a black box
 
 ---
 
-# 🚀 Featured Projects
+# Featured Projects
 
 <table>
 <tr>
@@ -82,9 +82,9 @@ Experiments include:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 💻 Languages
+### Languages
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -94,7 +94,7 @@ Experiments include:
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
-### 🧠 AI / Machine Learning
+### AI / Machine Learning
 
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
@@ -105,7 +105,7 @@ Experiments include:
   <img src="https://img.shields.io/badge/timm-PyTorch%20Image%20Models-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 </p>
 
-### 👁️ Computer Vision & Medical AI
+### Computer Vision & Medical AI
 
 <p>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
@@ -113,7 +113,7 @@ Experiments include:
   <img src="https://img.shields.io/badge/Segment%20Anything%20Model-SAM-8A2BE2?style=for-the-badge" />
 </p>
 
-### 🎮 Reinforcement Learning
+### Reinforcement Learning
 
 <p>
   <img src="https://img.shields.io/badge/Stable--Baselines3-3A7D44?style=for-the-badge" />
@@ -121,7 +121,7 @@ Experiments include:
   <img src="https://img.shields.io/badge/Unity%20ML--Agents-222C37?style=for-the-badge&logo=unity&logoColor=white" />
 </p>
 
-### 📊 Data & Backend
+### Data & Backend
 
 <p>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
@@ -131,7 +131,7 @@ Experiments include:
   <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
 </p>
 
-### 🔧 Development Tools
+### Development Tools
 
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
@@ -141,7 +141,7 @@ Experiments include:
 
 ---
 
-## 🔬 Areas of Interest
+## Areas of Interest
 
 <p>
   <img src="https://img.shields.io/badge/Deep%20Learning-🧠-blue?style=flat-square" />
@@ -156,7 +156,7 @@ Experiments include:
 
 ---
 
-# 📊 GitHub Analytics
+# GitHub Analytics
 
 <div align="center">
 
@@ -181,7 +181,7 @@ Experiments include:
 
 ---
 
-## 🐍 My Contribution Graph
+## My Contribution Graph
 
 <div align="center">
 
