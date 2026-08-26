@@ -164,9 +164,13 @@ Experiments include:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=nigelcheong1&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Nigel's GitHub statistics" />
+<img height="165"
+     src="https://github-stats-extended.vercel.app/api?username=nigelcheong1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"
+     alt="Nigel's GitHub statistics" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nigelcheong1&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Nigel's most used languages" />
+<img height="165"
+     src="https://github-stats-extended.vercel.app/api/top-langs/?username=nigelcheong1&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
+     alt="Nigel's most used languages" />
 
 </div>
 
@@ -174,7 +178,8 @@ Experiments include:
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=nigelcheong1&theme=github-dark-blue&hide_border=true" alt="Nigel's GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=nigelcheong1&theme=github-dark-blue&hide_border=true"
+     alt="Nigel's GitHub streak" />
 
 </div>
 
