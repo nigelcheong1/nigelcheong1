@@ -30,7 +30,7 @@ I enjoy building intelligent systems that go beyond model training — from **co
 
 ---
 
-## 🔬 Current Research
+## Current Research
 
 I am currently working on **Medical Image Segmentation** for my thesis, with a focus on **semi-supervised 3D medical imaging** under limited labelled data.
 
