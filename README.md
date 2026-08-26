@@ -200,6 +200,24 @@ Experiments include:
 
 ---
 
+## 📊 GitHub Analytics
+
+<div align="center">
+
+  <img
+    height="180"
+    src="https://github-stats-extended.vercel.app/api?username=nigelcheong1&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
+    alt="Nigel Cheong's GitHub Stats"
+  />
+
+  <img
+    height="180"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=nigelcheong1&layout=compact&langs_count=8&theme=dracula"
+    alt="Nigel Cheong's Most Used Languages"
+  />
+
+</div>
+
 ## My Contribution Graph
 
 <div align="center">
