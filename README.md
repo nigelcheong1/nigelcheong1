@@ -12,10 +12,6 @@
 </a>
 <img src="https://img.shields.io/badge/Location-Kuala%20Lumpur%2C%20Malaysia-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white" />
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=nigelcheong1&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-
 </div>
 
 ---
