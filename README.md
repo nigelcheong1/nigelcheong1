@@ -86,43 +86,76 @@ Experiments include:
 
 ---
 
-# 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-### Languages
+### 💻 Languages
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </p>
 
-### AI / Machine Learning
+### 🧠 AI / Machine Learning
 
 <p>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/Stable--Baselines3-3A7D44?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Gymnasium-0081A5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/timm-PyTorch%20Image%20Models-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 </p>
 
-### Data & Development
+### 👁️ Computer Vision & Medical AI
+
+<p>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" />
+  <img src="https://img.shields.io/badge/Segment%20Anything%20Model-SAM-8A2BE2?style=for-the-badge" />
+</p>
+
+### 🎮 Reinforcement Learning
+
+<p>
+  <img src="https://img.shields.io/badge/Stable--Baselines3-3A7D44?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Gymnasium-0081A5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Unity%20ML--Agents-222C37?style=for-the-badge&logo=unity&logoColor=white" />
+</p>
+
+### 📊 Data & Backend
 
 <p>
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
 </p>
 
-### Areas of Interest
+### 🔧 Development Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+</p>
+
+---
+
+## 🔬 Areas of Interest
 
 <p>
   <img src="https://img.shields.io/badge/Deep%20Learning-🧠-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Computer%20Vision-👁️-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Medical%20Image%20Segmentation-🩻-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Medical%20Computer%20Vision-🏥-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Reinforcement%20Learning-🎮-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI%20Research-🔬-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Foundation%20Models-🤖-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Semi--Supervised%20Learning-🔬-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/AI%20Research-📚-blue?style=flat-square" />
 </p>
 
 ---
