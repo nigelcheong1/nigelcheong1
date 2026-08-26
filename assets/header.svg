@@ -1,0 +1,381 @@
+<svg
+  width="1200"
+  height="300"
+  viewBox="0 0 1200 300"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Nigel Cheong GitHub Profile</title>
+  <desc id="desc">
+    AI and Machine Learning developer working in medical imaging,
+    computer vision, deep learning and reinforcement learning.
+  </desc>
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="300">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#101722"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <!-- Main accent -->
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58A6FF"/>
+      <stop offset="50%" stop-color="#A371F7"/>
+      <stop offset="100%" stop-color="#3FB950"/>
+    </linearGradient>
+
+    <!-- Soft glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 52px;
+        font-weight: 800;
+        letter-spacing: 2px;
+        fill: #F0F6FC;
+      }
+
+      .subtitle {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        fill: #58A6FF;
+        letter-spacing: 1.5px;
+      }
+
+      .body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 17px;
+        fill: #C9D1D9;
+      }
+
+      .small {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 14px;
+        fill: #8B949E;
+      }
+
+      .chip-text {
+        font-family: "Segoe UI", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        fill: #C9D1D9;
+      }
+
+      .node {
+        animation: pulse 3s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+
+      .node2 {
+        animation-delay: .6s;
+      }
+
+      .node3 {
+        animation-delay: 1.2s;
+      }
+
+      .node4 {
+        animation-delay: 1.8s;
+      }
+
+      .flow {
+        stroke-dasharray: 8 14;
+        animation: flow 2.5s linear infinite;
+      }
+
+      .accent-line {
+        animation: expand 2.8s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulse {
+        0%, 100% {
+          opacity: .55;
+          transform: scale(.92);
+        }
+
+        50% {
+          opacity: 1;
+          transform: scale(1.08);
+        }
+      }
+
+      @keyframes flow {
+        to {
+          stroke-dashoffset: -44;
+        }
+      }
+
+      @keyframes expand {
+        from {
+          opacity: .45;
+        }
+
+        to {
+          opacity: 1;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .node,
+        .flow,
+        .accent-line {
+          animation: none;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Card -->
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="298"
+    rx="22"
+    fill="url(#background)"
+    stroke="#30363D"
+    stroke-width="2"
+  />
+
+  <!-- Decorative top line -->
+  <rect
+    class="accent-line"
+    x="48"
+    y="31"
+    width="300"
+    height="3"
+    rx="1.5"
+    fill="url(#accent)"
+  />
+
+  <!-- LEFT SIDE -->
+
+  <text x="48" y="93" class="title">
+    NIGEL CHEONG
+  </text>
+
+  <text x="51" y="128" class="subtitle">
+    AI / MACHINE LEARNING
+  </text>
+
+  <text x="50" y="166" class="body">
+    Building intelligent systems that see, learn, and adapt.
+  </text>
+
+  <!-- Chips -->
+
+  <rect
+    x="48"
+    y="190"
+    width="164"
+    height="34"
+    rx="17"
+    fill="#161B22"
+    stroke="#30363D"
+  />
+  <text x="130" y="212" text-anchor="middle" class="chip-text">
+    Medical Imaging
+  </text>
+
+  <rect
+    x="222"
+    y="190"
+    width="170"
+    height="34"
+    rx="17"
+    fill="#161B22"
+    stroke="#30363D"
+  />
+  <text x="307" y="212" text-anchor="middle" class="chip-text">
+    Computer Vision
+  </text>
+
+  <rect
+    x="402"
+    y="190"
+    width="210"
+    height="34"
+    rx="17"
+    fill="#161B22"
+    stroke="#30363D"
+  />
+  <text x="507" y="212" text-anchor="middle" class="chip-text">
+    Reinforcement Learning
+  </text>
+
+  <text x="50" y="258" class="small">
+    Research  →  Experiment  →  Evaluate  →  Build
+  </text>
+
+  <!-- RIGHT: Neural / system diagram -->
+
+  <!-- connections -->
+  <line
+    x1="735"
+    y1="150"
+    x2="825"
+    y2="100"
+    stroke="#58A6FF"
+    stroke-width="2"
+    opacity=".55"
+  />
+
+  <line
+    x1="735"
+    y1="150"
+    x2="825"
+    y2="200"
+    stroke="#58A6FF"
+    stroke-width="2"
+    opacity=".55"
+  />
+
+  <line
+    x1="825"
+    y1="100"
+    x2="930"
+    y2="150"
+    stroke="#A371F7"
+    stroke-width="2"
+    opacity=".55"
+  />
+
+  <line
+    x1="825"
+    y1="200"
+    x2="930"
+    y2="150"
+    stroke="#A371F7"
+    stroke-width="2"
+    opacity=".55"
+  />
+
+  <line
+    x1="930"
+    y1="150"
+    x2="1040"
+    y2="150"
+    stroke="#3FB950"
+    stroke-width="2"
+    opacity=".55"
+  />
+
+  <!-- animated data flow -->
+
+  <path
+    class="flow"
+    d="M735 150 L825 100 L930 150 L1040 150"
+    stroke="url(#accent)"
+    stroke-width="3"
+    stroke-linecap="round"
+    fill="none"
+    filter="url(#glow)"
+  />
+
+  <path
+    class="flow"
+    d="M735 150 L825 200 L930 150"
+    stroke="url(#accent)"
+    stroke-width="3"
+    stroke-linecap="round"
+    fill="none"
+    opacity=".7"
+  />
+
+  <!-- Nodes -->
+
+  <circle
+    class="node"
+    cx="735"
+    cy="150"
+    r="19"
+    fill="#0D1117"
+    stroke="#58A6FF"
+    stroke-width="4"
+    filter="url(#glow)"
+  />
+
+  <circle
+    class="node node2"
+    cx="825"
+    cy="100"
+    r="16"
+    fill="#0D1117"
+    stroke="#58A6FF"
+    stroke-width="3"
+  />
+
+  <circle
+    class="node node3"
+    cx="825"
+    cy="200"
+    r="16"
+    fill="#0D1117"
+    stroke="#A371F7"
+    stroke-width="3"
+  />
+
+  <circle
+    class="node node4"
+    cx="930"
+    cy="150"
+    r="22"
+    fill="#0D1117"
+    stroke="#A371F7"
+    stroke-width="4"
+    filter="url(#glow)"
+  />
+
+  <circle
+    class="node"
+    cx="1040"
+    cy="150"
+    r="19"
+    fill="#0D1117"
+    stroke="#3FB950"
+    stroke-width="4"
+    filter="url(#glow)"
+  />
+
+  <!-- Labels -->
+
+  <text x="735" y="194" text-anchor="middle" class="small">
+    INPUT
+  </text>
+
+  <text x="825" y="64" text-anchor="middle" class="small">
+    VISION
+  </text>
+
+  <text x="825" y="240" text-anchor="middle" class="small">
+    DATA
+  </text>
+
+  <text x="930" y="198" text-anchor="middle" class="small">
+    LEARN
+  </text>
+
+  <text x="1040" y="194" text-anchor="middle" class="small">
+    ADAPT
+  </text>
+
+  <!-- subtle corner decoration -->
+
+  <circle cx="1130" cy="55" r="3" fill="#58A6FF" opacity=".8"/>
+  <circle cx="1145" cy="55" r="3" fill="#A371F7" opacity=".6"/>
+  <circle cx="1160" cy="55" r="3" fill="#3FB950" opacity=".6"/>
+
+</svg>
