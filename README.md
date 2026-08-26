@@ -16,7 +16,6 @@
 
 ---
 
-<div align="center"> <a href="https://www.linkedin.com/in/nigel-cheong-118378254/"> <img src="https://img.shields.io/badge/LinkedIn-Nigel%20Cheong-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <a href="mailto:nigelcheong05@gmail.com"> <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /> </a> <img src="https://img.shields.io/badge/Location-Kuala%20Lumpur%2C%20Malaysia-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white" /> </div> ```
 ## About Me
 
 I'm **Nigel Cheong**, an AI and machine learning developer based in Kuala Lumpur, Malaysia.
