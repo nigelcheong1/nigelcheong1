@@ -203,7 +203,7 @@ Experiments include:
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=nigelcheong1&theme=github-dark-blue&hide_border=true"
+<img src="./assets/streak.svg"
      alt="Nigel's GitHub streak" />
 
 </div>
