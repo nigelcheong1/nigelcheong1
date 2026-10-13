@@ -87,23 +87,23 @@ The system combines:
 
 <td width="50%" valign="top">
 
-### 🧬 [Skin Lesion Classification](https://github.com/nigelcheong1/skin-lesion-classification)
+### 📄 [DocIntel AI](https://github.com/nigelcheong1/docintel-ai)
 
-A comparative deep-learning project for **14-class skin lesion classification**.
+A **local-first document intelligence workspace** for asking questions with page-level evidence.
 
-Experiments include:
+The application combines:
 
-* Custom CNN architectures
-* KAN-ViT hybrid models
-* EfficientNet backbones
-* Attention mechanisms
-* Class imbalance handling
-* Model benchmarking
+* PDF and image ingestion with local OCR
+* Hybrid lexical and vector retrieval
+* Extractive answers with page/chunk citations
+* Cited summaries and study questions
+* Source previews and extraction diagnostics
+* Persistent, source-reviewed evaluation
 
-🏆 Best model: **87.7% test accuracy** with approximately **9 MB of weights**
+🔎 **Evidence-backed document Q&A that can run without paid AI APIs**
 
 **Tech:**
-`Python` `PyTorch` `CNN` `ViT` `KAN` `EfficientNet` `OpenCV`
+`Python` `TypeScript` `Next.js` `FastAPI` `PostgreSQL` `pgvector` `Tesseract`
 
 </td>
 </tr>
