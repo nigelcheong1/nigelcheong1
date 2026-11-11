@@ -210,6 +210,21 @@ The application combines:
 
 ---
 
+## Contribution Workshop
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/robot-builder.png" />
+  <img
+    src="./assets/robot-builder.gif"
+    width="100%"
+    alt="A small robot builds Nigel's contribution calendar on white tiles. Green columns show active days; taller columns represent more contributions."
+  />
+</picture>
+
+Built from my actual GitHub contribution calendar and refreshed daily. [View the still image](./assets/robot-builder.png).
+
+---
+
 ## My Contribution Graph
 
 <div align="center">
