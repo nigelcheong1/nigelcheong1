@@ -25,14 +25,14 @@ class RobotBuilderTests(unittest.TestCase):
     def test_empty_calendar_renders_without_fake_columns(self):
         renderer=WorkshopRenderer(calendar(False))
         self.assertEqual(renderer.targets, [])
-        self.assertEqual(renderer.frame(6).size, (1120,600))
+        self.assertEqual(renderer.frame(6).size, (1120,410))
 
     def test_robot_really_moves_and_completed_calendar_is_visible(self):
         renderer=WorkshopRenderer(calendar())
         early,late=renderer.frame(1),renderer.frame(13.6)
         self.assertIsNotNone(ImageChops.difference(early,late).getbbox())
         self.assertEqual(len(renderer.targets),4)
-        self.assertEqual(renderer.frame(0).size,(1120,600))
+        self.assertEqual(renderer.frame(0).size,(1120,410))
 
     def test_saturday_block_lands_on_a_complete_base_and_stays_full_height(self):
         start=date(2025,12,28)
@@ -57,7 +57,7 @@ class RobotBuilderTests(unittest.TestCase):
                 # Quantization may change colors slightly; both first frame and
                 # still must show roughly the same number of green chart pixels.
                 def green_pixels(im):
-                    return sum(g>r*1.15 and g>b*1.1 for r,g,b in im.convert('RGB').crop((30,180,1090,510)).get_flattened_data())
+                    return sum(g>r*1.15 and g>b*1.1 for r,g,b in im.convert('RGB').crop((30,80,1090,400)).get_flattened_data())
                 self.assertGreater(green_pixels(image),1000)
                 self.assertLess(abs(green_pixels(image)-green_pixels(still)),1000)
                 duration=0

@@ -13,10 +13,10 @@ if __package__:
 else:
     from calendar_data import Calendar, fetch_calendar, normalize_calendar, column_height, placement_targets
 
-W, H, AA = 1120, 600, 2
+W, H, AA = 1120, 410, 2
 FPS, SECONDS = 20, 16
 BG = '#0d1117'
-TEXT, MUTED, EDGE = '#e6edf3', '#9aa7b7', '#30363d'
+TEXT, MUTED = '#e6edf3', '#9aa7b7'
 GREEN = '#56d364'
 
 def load_font(size, bold=False):
@@ -30,10 +30,10 @@ def load_font(size, bold=False):
     return ImageFont.load_default(size=size*AA)
 
 FONTS = {(size,bold): load_font(size,bold) for size,bold in
-         [(29,True),(15,False),(13,False),(12,False),(12,True),(14,True)]}
+         [(13,False),(12,False),(12,True)]}
 
 def p(w, d, z=0):
-    return (160 + 16.55*w - 12.6*d, 252 + 3.0*w + 9.2*d - z)
+    return (160 + 16.55*w - 12.6*d, 132 + 3.0*w + 9.2*d - z)
 
 def smooth(a):
     a = max(0, min(1, a))
@@ -86,11 +86,7 @@ def column(c, w, d, height, shade, lean=0, lift=0, alpha=1):
 def foundation(calendar):
     im = Image.new('RGB', (W*AA,H*AA), BG)
     c = Canvas(im)
-    c.text((48,38),'Contribution workshop',29,TEXT,True)
-    c.text((49,84),f'{calendar.username}  /  a tiny robot, a year of building',15)
-    c.text((W-48,51),f'{calendar.total:,} contributions',12,GREEN,True,anchor='ra')
-    c.line([(48,121),(W-48,121)],EDGE)
-    c.text((49,142),'White tiles. Green blocks. One day at a time.',13)
+    c.text((W-48,29),f'{calendar.total:,} contributions',12,GREEN,True,anchor='ra')
     # Fixed isometric white board: seven rows by 53 weeks.
     corners=[p(0,0),p(calendar.weeks,0),p(calendar.weeks,7),p(0,7)]
     c.poly([(x+6,y+11) for x,y in corners], '#090c10')
@@ -105,13 +101,6 @@ def foundation(calendar):
     for w,month in months:
         x,y = p(w,7.8)
         c.text((x-2,y+11),month,12,anchor='ma')
-    c.line([(48,524),(W-48,524)],EDGE)
-    c.text((49,548),f'{calendar.start:%d %b %Y} – {calendar.end:%d %b %Y}  ·  Height reflects activity',13)
-    c.text((846,549),'Less',12)
-    colors=['#f0f5f3','#c4f5ca','#9aeca7','#77e38a','#42cb60']
-    for k,col in enumerate(colors):
-        c.rect((884+22*k,550,899+22*k,565),col,3)
-    c.text((1010,549),'More',12)
     return im
 
 def robot(c, w, t, kind, active, phase, renderer):
@@ -165,8 +154,8 @@ def render(t, renderer):
     c=Canvas(im)
     w,kind,active,phase=renderer.state(t)
     status='Warming up' if kind=='start' else 'Year complete' if kind in ['rest','reset'] else 'Placing a block' if kind=='place' else 'Building the calendar'
-    c.ellipse((851,146,857,152),GREEN)
-    c.text((868,141),status,13,TEXT)
+    c.ellipse((851,62,857,68),GREEN)
+    c.text((868,57),status,13,TEXT)
     # Chronological build frontier; drawn far-to-near for correct occlusion.
     items=[]
     for (ww,dd),day in renderer.active.items():

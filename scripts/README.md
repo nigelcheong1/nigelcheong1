@@ -2,7 +2,7 @@
 
 The robot builds the white-and-green calendar from the last 365 days of actual GitHub contribution data. It places a block on an active day in each quarter with activity, then that column briefly wobbles. All other columns assemble in chronological order. The complete calendar stays visible before the loop restarts.
 
-The GIF begins with the completed calendar so clients that show only the first frame still display the data. The README's `picture` selects a still PNG for browsers requesting reduced motion, with an explicit still-image link as a fallback.
+The GIF begins with the completed calendar so clients that show only the first frame still display the data. The README's `picture` selects a still PNG for browsers requesting reduced motion. The compact image keeps the contribution total, changing build status, and month labels.
 
 ## Regeneration
 
