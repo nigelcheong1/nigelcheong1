@@ -13,6 +13,12 @@ I build **AI systems that connect research with practical use**—from document 
   <a href="#current-research"><img src="./assets/contact-research.svg" height="44" alt="Current research" /></a>
 </p>
 
+## About
+
+- **AI and machine learning developer** based in Kuala Lumpur, Malaysia.
+- **Thesis: CPS-SemiSAM** — semi-supervised 3D medical image segmentation with SAM-assisted prompt-stability supervision.
+- **Interests:** computer vision, medical AI, reinforcement learning, intelligent agents, and document intelligence.
+
 ## Featured Projects
 
 | Project | What it does | Tech stack |
@@ -40,7 +46,19 @@ I build **AI systems that connect research with practical use**—from document 
 
 ## Tech Stack
 
-<table><tbody><tr><th scope="row">Languages</th><td><code>Python</code> <code>C</code> <code>C++</code> <code>SQL</code> <code>JavaScript</code></td></tr><tr><th scope="row">AI / Machine Learning</th><td><code>PyTorch</code> <code>TensorFlow</code> <code>scikit-learn</code> <code>XGBoost</code> <code>Transformers</code> <code>timm</code></td></tr><tr><th scope="row">Computer Vision &amp; Medical AI</th><td><code>OpenCV</code> <code>YOLO</code> <code>Segment Anything Model (SAM)</code></td></tr><tr><th scope="row">Reinforcement Learning</th><td><code>Stable-Baselines3</code> <code>Gymnasium</code> <code>Unity ML-Agents</code></td></tr><tr><th scope="row">Data &amp; Backend</th><td><code>NumPy</code> <code>pandas</code> <code>Apache Spark</code> <code>FastAPI</code> <code>Supabase</code></td></tr><tr><th scope="row">Development Tools</th><td><code>Git</code> <code>GitHub</code> <code>Jupyter</code></td></tr></tbody></table>
+<table>
+<tbody>
+<tr><th scope="row">Languages</th><td><img src="./assets/tech/python.svg" height="28" alt="Python" /> <img src="./assets/tech/c.svg" height="28" alt="C" /> <img src="./assets/tech/c.svg" height="28" alt="C++" /> <img src="./assets/tech/sql.svg" height="28" alt="SQL" /> <img src="./assets/tech/javascript.svg" height="28" alt="JavaScript" /></td></tr>
+<tr><th scope="row">AI / Machine Learning</th><td><img src="./assets/tech/pytorch.svg" height="28" alt="PyTorch" /> <img src="./assets/tech/tensorflow.svg" height="28" alt="TensorFlow" /> <img src="./assets/tech/scikit-learn.svg" height="28" alt="scikit-learn" /> <img src="./assets/tech/xgboost.svg" height="28" alt="XGBoost" /> <img src="./assets/tech/transformers.svg" height="28" alt="Transformers" /> <img src="./assets/tech/timm.svg" height="28" alt="timm" /></td></tr>
+<tr><th scope="row">Computer Vision &amp; Medical AI</th><td><img src="./assets/tech/opencv.svg" height="28" alt="OpenCV" /> <img src="./assets/tech/yolo.svg" height="28" alt="YOLO" /> <img src="./assets/tech/segment-anything-model-sam.svg" height="28" alt="Segment Anything Model (SAM)" /></td></tr>
+<tr><th scope="row">Reinforcement Learning</th><td><img src="./assets/tech/stable-baselines3.svg" height="28" alt="Stable-Baselines3" /> <img src="./assets/tech/gymnasium.svg" height="28" alt="Gymnasium" /> <img src="./assets/tech/unity-ml-agents.svg" height="28" alt="Unity ML-Agents" /></td></tr>
+<tr><th scope="row">Data &amp; Analytics</th><td><img src="./assets/tech/numpy.svg" height="28" alt="NumPy" /> <img src="./assets/tech/pandas.svg" height="28" alt="pandas" /> <img src="./assets/tech/apache-spark.svg" height="28" alt="Apache Spark" /></td></tr>
+<tr><th scope="row">Backend &amp; Apps</th><td><img src="./assets/tech/fastapi.svg" height="28" alt="FastAPI" /> <img src="./assets/tech/streamlit.svg" height="28" alt="Streamlit" /></td></tr>
+<tr><th scope="row">Databases &amp; Vector Search</th><td><img src="./assets/tech/postgresql.svg" height="28" alt="PostgreSQL" /> <img src="./assets/tech/pgvector.svg" height="28" alt="pgvector" /> <img src="./assets/tech/neo4j.svg" height="28" alt="Neo4j" /> <img src="./assets/tech/supabase.svg" height="28" alt="Supabase" /></td></tr>
+<tr><th scope="row">Dev Tools &amp; Containers</th><td><img src="./assets/tech/git.svg" height="28" alt="Git" /> <img src="./assets/tech/github.svg" height="28" alt="GitHub" /> <img src="./assets/tech/jupyter.svg" height="28" alt="Jupyter" /> <img src="./assets/tech/docker.svg" height="28" alt="Docker" /></td></tr>
+<tr><th scope="row">Deployment &amp; Hosting</th><td><img src="./assets/tech/render.svg" height="28" alt="Render" /> <img src="./assets/tech/vercel.svg" height="28" alt="Vercel" /> <img src="./assets/tech/netlify.svg" height="28" alt="Netlify" /></td></tr>
+</tbody>
+</table>
 
 ## Areas of Interest
 
