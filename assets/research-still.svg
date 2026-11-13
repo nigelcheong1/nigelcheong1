@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="235" viewBox="0 0 1200 235">
+<rect width="1200" height="235" fill="#10171c"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="28" y="31" font-size="12" fill="#8b9aab">RESEARCH CONCEPT · SCHEMATIC</text>
+<g transform="translate(72 65)"><path d="M0 27L73 0L144 27V96L72 125L0 96Z" fill="#17252c" stroke="#69818b"/><path d="M0 27L72 54L144 27M72 54V125M0 50L72 78L144 50M0 73L72 101L144 73" fill="none" stroke="#5b737c"/><path d="M36 40L72 26L107 40L72 55Z" fill="#b6c4c8"/></g>
+<path d="M255 124H397M785 124H929" stroke="#56d364" stroke-width="2"/><path d="M389 118L397 124L389 130M921 118L929 124L921 130" fill="none" stroke="#56d364" stroke-width="2"/>
+<rect x="428" y="70" width="327" height="109" rx="7" fill="#13251b" stroke="#436e50"/>
+<text x="591" y="113" text-anchor="middle" font-size="23" font-weight="600" fill="#e6edf3">SAM + semi-supervision</text><text x="591" y="146" text-anchor="middle" font-size="16" fill="#a5bead">foundation models · limited labels</text>
+<g transform="translate(966 65)"><path d="M0 27L73 0L144 27V96L72 125L0 96Z" fill="#172b20" stroke="#6ea27b"/><path d="M0 27L72 54L144 27M72 54V125M0 50L72 78L144 50M0 73L72 101L144 73" fill="none" stroke="#456e51"/><path d="M36 40L72 26L107 40L72 55Z" fill="#7ee787"/><path d="M36 40V84L72 99V55Z" fill="#40b85c"/><path d="M72 55L107 40V84L72 99Z" fill="#289642"/></g>
+<text x="145" y="217" text-anchor="middle" font-size="15" fill="#a9b4c0">3D medical images</text><text x="1038" y="217" text-anchor="middle" font-size="15" fill="#a9b4c0">segmentation</text></g></svg>

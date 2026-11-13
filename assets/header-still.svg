@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<rect width="1200" height="300" fill="#0d1117"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<text x="32" y="116" font-size="72" font-weight="700" letter-spacing="-2" fill="#f0f6fc">Nigel <tspan fill="#7ee787">Cheong</tspan></text>
+<text x="36" y="166" font-size="24" fill="#e6edf3">AI &amp; machine learning</text>
+<text x="36" y="217" font-size="20" fill="#a4afbd">From research to working systems.</text>
+<path d="M36 252H528" stroke="#30363d"/>
+<text x="36" y="278" font-size="13" fill="#9aa7b7">COMPUTER VISION</text><text x="224" y="278" font-size="13" fill="#9aa7b7">REINFORCEMENT LEARNING</text>
+<g stroke="#334c40" fill="none" stroke-width="1.5"><path d="M619 233L769 194L962 239L1133 132"/><path d="M769 194L871 69L1133 132"/></g>
+<g fill="#56d364"><circle cx="619" cy="233" r="3"/><circle cx="769" cy="194" r="3"/><circle cx="962" cy="239" r="3"/><circle cx="1133" cy="132" r="3"/></g>
+<g transform="translate(823 60)">
+<path d="M0 46L99 0L198 46L99 92Z" fill="#d5e3dc" stroke="#0d1117" stroke-width="2"/>
+<path d="M0 46V102L99 150V92Z" fill="#9db4a6"/><path d="M99 92L198 46V102L99 150Z" fill="#607b69"/>
+<path d="M0 65L99 112L198 65M0 84L99 131L198 84" fill="none" stroke="#0d1117" stroke-width="3"/>
+<path d="M44 48L99 22L154 48L99 74Z" fill="#56d364" stroke="#238636" stroke-width="2"/>
+<path d="M72 61L126 35M72 35L126 61" stroke="#238636" stroke-width="1.5"/>
+<path d="M100 151L100 180" stroke="#56d364"/><text x="100" y="205" text-anchor="middle" font-size="13" fill="#a4afbd">VISION / VOLUME</text>
+</g>
+<g transform="translate(632 92)" fill="none" stroke-width="2"><rect x="0" y="0" width="70" height="93" rx="5" fill="#16231b" stroke="#486554"/><rect x="9" y="-10" width="70" height="93" rx="5" fill="#152119" stroke="#6a8d74"/><path d="M25 13H62M25 25H62M25 37H51" stroke="#a6c4ae"/><rect x="21" y="49" width="43" height="18" rx="3" fill="#56d364" stroke="#56d364"/><path d="M29 57L36 62L48 53" stroke="#102316"/><text x="38" y="130" text-anchor="middle" font-size="13" stroke="none" fill="#a4afbd">KNOWLEDGE</text></g>
+<g transform="translate(1034 148)"><path d="M0 48L83 0L133 28L50 77Z" fill="#15251c" stroke="#60866b"/><path d="M25 62L108 14M44 22L92 52" stroke="#3e6049"/><path d="M19 47Q58 13 78 33T117 27" fill="none" stroke="#7ee787" stroke-width="2.5"/><circle cx="117" cy="27" r="5" fill="#e6edf3"/><text x="65" y="111" text-anchor="middle" font-size="13" fill="#a4afbd">AGENTS</text></g>
+</g></svg>

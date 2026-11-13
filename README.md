@@ -1,236 +1,74 @@
-<div align="center">
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/header-mobile-still.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header-still.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
+  <img src="./assets/header.svg" width="100%" alt="Nigel Cheong — AI and machine learning. From research to working systems." />
+</picture>
 
-<img
-  src="https://raw.githubusercontent.com/nigelcheong1/nigelcheong1/main/assets/header.svg"
-  width="100%"
-  alt="Nigel Cheong - AI and Machine Learning"
-/>
+I build **AI systems that connect research with practical use**—from document intelligence and reinforcement-learning agents to semi-supervised 3D medical image segmentation.
 
-</div>
+[LinkedIn](https://www.linkedin.com/in/nigel-cheong-118378254/) · [Email](mailto:nigelcheong05@gmail.com) · [Current research](#current-research)
 
-<br/>
+## Featured Projects
 
-<div align="center">
-
-<a href="https://www.linkedin.com/in/nigel-cheong-118378254/">
-  <img src="https://img.shields.io/badge/LinkedIn-Nigel%20Cheong-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-<a href="mailto:nigelcheong05@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<img src="https://img.shields.io/badge/Location-Kuala%20Lumpur%2C%20Malaysia-2E8B57?style=for-the-badge&logo=googlemaps&logoColor=white" />
-
-</div>
-
----
-
-## About Me
-
-I'm **Nigel Cheong**, an AI and machine learning developer based in Kuala Lumpur, Malaysia.
-
-I enjoy building intelligent systems that go beyond model training — from **computer vision and deep learning** to **reinforcement learning agents, simulation, evaluation and real-world deployment**.
-
-* Interested in **Artificial Intelligence & Machine Learning**
-* Working with **Deep Learning & Computer Vision**
-* Exploring **Reinforcement Learning & Intelligent Agents**
-* Interested in turning research ideas into practical AI systems
-* I enjoy experimenting, benchmarking and improving models rather than treating AI as a black box
-
----
+| Project | What it does | Tech stack |
+| --- | --- | --- |
+| **Thesis: CPS-SemiSAM**<br><sub>Repository coming soon</sub><br><sub>3D medical image segmentation</sub> | Researches semi-supervised segmentation with limited labelled data, using counterfactual prompt stability to refine SAM-assisted pseudo-label supervision. | `Python` `PyTorch` `SAM-Med3D` `3D U-Net` |
+| [DocIntel AI](https://github.com/nigelcheong1/docintel-ai)<br><sub>Document intelligence workspace</sub> | Extracts text from PDFs and images, retrieves relevant evidence, and provides cited answers, summaries, and study material with page-level source previews. | `Python` `TypeScript` `Next.js` `FastAPI` `PostgreSQL` `pgvector` `Tesseract` |
+| [Loupe](https://github.com/deettoh/halal-supplier-control)<br><sub>Halal supplier control workspace</sub> | Checks photographed ingredient labels against masterlist and certificate records, flags mismatches or expiry, and routes flagged deliveries to a supervisor. | `React` `Vite` `Tailwind CSS` `Python` `FastAPI` `PostgreSQL` `Qwen3-VL` `RunPod` |
+| [dPickleball](https://github.com/nigelcheong1/dpickleball-rl-agent)<br><sub>Reinforcement-learning game agent</sub> | Controls a paddle from camera observations using a calibrated simulator, PPO training, Unity fine-tuning, and self-play. Placed 3rd out of 13 teams. | `Python` `PyTorch` `OpenCV` `Stable-Baselines3` `Gymnasium` `Unity ML-Agents` |
+| [Skin-Lesion Classification](https://github.com/nigelcheong1/skin-lesion-classification)<br><sub>Computer vision model comparison</sub> | Compares custom CNNs with KAN–Vision Transformer hybrids for 14-class skin-condition classification, including preprocessing and evaluation. | `Python` `PyTorch` `torchvision` `timm` `OpenCV` `scikit-learn` `Jupyter` |
 
 ## Current Research
 
-I am currently working on **Medical Image Segmentation** for my thesis, with a focus on **semi-supervised 3D medical imaging** under limited labelled data.
+**Medical image segmentation with limited labels.** My thesis explores semi-supervised 3D imaging and how foundation models such as SAM can support more reliable, data-efficient segmentation.
 
-My research explores how **foundation models**, especially the **Segment Anything Model (SAM)**, can be adapted to improve segmentation reliability in medical imaging tasks. In particular, I am interested in combining **medical computer vision**, **semi-supervised learning**, and **prompt-based segmentation** to build more robust and data-efficient systems.
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/research-mobile-still.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/research-still.svg" />
+  <source media="(max-width: 600px)" srcset="./assets/research-mobile.svg" />
+  <img src="./assets/research.svg" width="100%" alt="Concept diagram: 3D medical images flow through SAM and semi-supervision into a segmentation volume. Schematic, not experimental results." />
+</picture>
 
-### Current Focus Areas
+<sub>Research concept diagram; not an experimental result.</sub>
 
-<p>
-  <img src="https://img.shields.io/badge/Medical%20Image%20Segmentation-3D%20Imaging-6C63FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Semi--Supervised%20Learning-Low%20Annotation-2E8B57?style=flat-square" />
-  <img src="https://img.shields.io/badge/Foundation%20Models-Medical%20Imaging-8A2BE2?style=flat-square" />
-  <img src="https://img.shields.io/badge/Segment%20Anything%20Model-SAM-FF6F61?style=flat-square" />
-  <img src="https://img.shields.io/badge/3D%20Medical%20Imaging-MRI-007ACC?style=flat-square" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-Healthcare-009688?style=flat-square" />
-</p>
-
----
-
-# Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏓 [dPickleBall RL Agent](https://github.com/nigelcheong1/dpickleball-rl-agent)
-
-A reinforcement-learning agent for a real-time Unity pickleball environment.
-
-The system combines:
-
-* PPO reinforcement learning
-* OpenCV-based feature extraction
-* Calibrated physics simulation
-* Curriculum learning
-* Unity fine-tuning
-* Self-play
-
-🥉 **3rd place out of 13 teams**
-
-**Tech:**
-`Python` `PyTorch` `Stable-Baselines3` `OpenCV` `Gymnasium` `Unity ML-Agents`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 📄 [DocIntel AI](https://github.com/nigelcheong1/docintel-ai)
-
-A **local-first document intelligence workspace** for asking questions with page-level evidence.
-
-The application combines:
-
-* PDF and image ingestion with local OCR
-* Hybrid lexical and vector retrieval
-* Extractive answers with page/chunk citations
-* Cited summaries and study questions
-* Source previews and extraction diagnostics
-* Persistent, source-reviewed evaluation
-
-🔎 **Evidence-backed document Q&A that can run without paid AI APIs**
-
-**Tech:**
-`Python` `TypeScript` `Next.js` `FastAPI` `PostgreSQL` `pgvector` `Tesseract`
-
-</td>
-</tr>
-</table>
-
----
+**Current focus areas:** Medical Image Segmentation · Semi-Supervised Learning · Foundation Models · Segment Anything Model (SAM) · 3D Medical Imaging (MRI) · Computer Vision for Healthcare.
 
 ## Tech Stack
 
-### Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</p>
-
-### AI / Machine Learning
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/timm-PyTorch%20Image%20Models-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-</p>
-
-### Computer Vision & Medical AI
-
-<p>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black" />
-  <img src="https://img.shields.io/badge/Segment%20Anything%20Model-SAM-8A2BE2?style=for-the-badge" />
-</p>
-
-### Reinforcement Learning
-
-<p>
-  <img src="https://img.shields.io/badge/Stable--Baselines3-3A7D44?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Gymnasium-0081A5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Unity%20ML--Agents-222C37?style=for-the-badge&logo=unity&logoColor=white" />
-</p>
-
-### Data & Backend
-
-<p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-</p>
-
-### Development Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-</p>
-
----
+<table><tbody><tr><th scope="row">Languages</th><td><code>Python</code> <code>C</code> <code>C++</code> <code>SQL</code> <code>JavaScript</code></td></tr><tr><th scope="row">AI / Machine Learning</th><td><code>PyTorch</code> <code>TensorFlow</code> <code>scikit-learn</code> <code>XGBoost</code> <code>Transformers</code> <code>timm</code></td></tr><tr><th scope="row">Computer Vision &amp; Medical AI</th><td><code>OpenCV</code> <code>YOLO</code> <code>Segment Anything Model (SAM)</code></td></tr><tr><th scope="row">Reinforcement Learning</th><td><code>Stable-Baselines3</code> <code>Gymnasium</code> <code>Unity ML-Agents</code></td></tr><tr><th scope="row">Data &amp; Backend</th><td><code>NumPy</code> <code>pandas</code> <code>Apache Spark</code> <code>FastAPI</code> <code>Supabase</code></td></tr><tr><th scope="row">Development Tools</th><td><code>Git</code> <code>GitHub</code> <code>Jupyter</code></td></tr></tbody></table>
 
 ## Areas of Interest
 
-<p>
-  <img src="https://img.shields.io/badge/Deep%20Learning-🧠-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-👁️-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Medical%20Image%20Segmentation-🩻-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Medical%20Computer%20Vision-🏥-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Reinforcement%20Learning-🎮-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Foundation%20Models-🤖-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/Semi--Supervised%20Learning-🔬-blue?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI%20Research-📚-blue?style=flat-square" />
-</p>
+<p><code>Deep Learning</code> <code>Computer Vision</code> <code>Medical Image Segmentation</code> <code>Medical Computer Vision</code> <code>Reinforcement Learning</code> <code>Foundation Models</code> <code>Semi-Supervised Learning</code> <code>AI Research</code></p>
 
----
+<details>
+<summary><img src="./assets/lab-bot.svg" width="25" height="26" alt="" /> Open the lab notes</summary>
 
-# GitHub Analytics
+**What I am exploring**
 
-<div align="center">
+- Adapting foundation models to 3D medical segmentation.
+- Learning from limited labelled data and useful prompts.
+- Simulation, evaluation, and deployment of intelligent agents.
 
-<img height="165"
-     src="https://github-stats-extended.vercel.app/api?username=nigelcheong1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true"
-     alt="Nigel's GitHub statistics" />
+The calendar below uses actual contribution counts and a daily GitHub Actions update. Its columns wobble automatically when the robot finishes a featured block.
 
-<img height="165"
-     src="https://github-stats-extended.vercel.app/api/top-langs/?username=nigelcheong1&layout=compact&theme=github_dark&hide_border=true&langs_count=8"
-     alt="Nigel's most used languages" />
+</details>
 
-</div>
-
-<br/>
+## GitHub Analytics
 
 <div align="center">
-
-<img src="./assets/streak.svg"
-     alt="Nigel's GitHub streak" />
-
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=nigelcheong1&amp;show_icons=true&amp;hide_border=true&amp;count_private=true&amp;include_all_commits=true&amp;title_color=7ee787&amp;icon_color=56d364&amp;text_color=bac5d0&amp;bg_color=0d1117" alt="Nigel's GitHub statistics" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=nigelcheong1&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;title_color=7ee787&amp;text_color=bac5d0&amp;bg_color=0d1117" alt="Nigel's repository language breakdown" />
 </div>
 
----
+<p align="center"><img src="./assets/streak.svg" alt="Nigel's total contributions, current streak, and longest streak" /></p>
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/robot-builder.png" />
-  <img
-    src="./assets/robot-builder.gif"
-    width="100%"
-    alt="A small robot builds Nigel's contribution calendar on white tiles. Green columns show active days; taller columns represent more contributions."
-  />
+  <img src="./assets/robot-builder.gif" width="100%" alt="A small robot builds Nigel's actual contribution calendar on white tiles. Taller green columns represent more contributions." />
 </picture>
 
 ---
 
-<div align="center">
-
-### 💡 Build. Experiment. Learn. Improve.
-
-I'm always interested in challenging AI problems and opportunities to build useful intelligent systems.
-
-<br/>
-
-<a href="https://www.linkedin.com/in/nigel-cheong-118378254/">
-  <img src="https://img.shields.io/badge/Let's%20Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
+<p align="center">Interested in AI research or building useful systems?<br /><a href="mailto:nigelcheong05@gmail.com">Get in touch</a></p>
