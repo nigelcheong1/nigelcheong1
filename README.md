@@ -15,15 +15,15 @@ I build **AI systems that connect research with practical use**—from document 
 
 ## About
 
-- **AI and machine learning developer** based in Kuala Lumpur, Malaysia.
-- **Thesis: CPS-SemiSAM** — semi-supervised 3D medical image segmentation with SAM-assisted prompt-stability supervision.
+- B.Eng. in Artificial Intelligence (Honours) at **Xiamen University Malaysia**
+- **Thesis: CPS-SemiSAM+** — semi-supervised 3D medical image segmentation with SAM-assisted prompt-stability supervision.
 - **Interests:** computer vision, medical AI, reinforcement learning, intelligent agents, and document intelligence.
 
 ## Featured Projects
 
 | Project | What it does | Tech stack |
 | --- | --- | --- |
-| **Thesis: CPS-SemiSAM**<br><sub>Repository coming soon</sub><br><sub>3D medical image segmentation</sub> | Researches semi-supervised segmentation with limited labelled data, using counterfactual prompt stability to refine SAM-assisted pseudo-label supervision. | `Python` `PyTorch` `SAM-Med3D` `3D U-Net` |
+| **Thesis: CPS-SemiSAM+**<br><sub>Repository coming soon</sub><br><sub>3D medical image segmentation</sub> | Researches semi-supervised segmentation with limited labelled data, using counterfactual prompt stability to refine SAM-assisted pseudo-label supervision. | `Python` `PyTorch` `SAM-Med3D` `3D U-Net` |
 | [DocIntel AI](https://github.com/nigelcheong1/docintel-ai)<br><sub>Document intelligence workspace</sub> | Extracts text from PDFs and images, retrieves relevant evidence, and provides cited answers, summaries, and study material with page-level source previews. | `Python` `TypeScript` `Next.js` `FastAPI` `PostgreSQL` `pgvector` `Tesseract` |
 | [Loupe](https://github.com/deettoh/halal-supplier-control)<br><sub>Halal supplier control workspace</sub> | Checks photographed ingredient labels against masterlist and certificate records, flags mismatches or expiry, and routes flagged deliveries to a supervisor. | `React` `Vite` `Tailwind CSS` `Python` `FastAPI` `PostgreSQL` `Qwen3-VL` `RunPod` |
 | [dPickleball](https://github.com/nigelcheong1/dpickleball-rl-agent)<br><sub>Reinforcement-learning game agent</sub> | Controls a paddle from camera observations using a calibrated simulator, PPO training, Unity fine-tuning, and self-play. Placed 3rd out of 13 teams. | `Python` `PyTorch` `OpenCV` `Stable-Baselines3` `Gymnasium` `Unity ML-Agents` |
@@ -93,4 +93,5 @@ The calendar below uses actual contribution counts and a daily GitHub Actions up
 
 ---
 
-<p align="center">Interested in AI research or building useful systems?<br /><a href="mailto:nigelcheong05@gmail.com">Get in touch</a></p>
+<p align="center">Interested in AI research or building useful systems?</p>
+<p align="center"><a href="mailto:nigelcheong05@gmail.com"><img src="./assets/get-in-touch.svg" width="220" height="48" alt="Get in touch by email" /></a></p>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="48" viewBox="0 0 220 48" role="img" aria-labelledby="title">
+  <title id="title">Get in touch by email</title>
+  <rect x=".5" y=".5" width="219" height="47" rx="8" fill="#7ee787" stroke="#56d364"/>
+  <g fill="none" stroke="#102a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="16" width="22" height="16" rx="2"/>
+    <path d="m19 17 10 8 10-8M185 24h17m-6-6 6 6-6 6"/>
+  </g>
+  <text x="55" y="29" fill="#102a1a" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">Get in touch</text>
+</svg>
