@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="44" viewBox="0 0 148 44" role="img" aria-labelledby="title">
+  <title id="title">LinkedIn</title>
+  <defs><clipPath id="badge"><rect x=".5" y=".5" width="147" height="43" rx="4"/></clipPath></defs>
+  <g clip-path="url(#badge)"><rect width="148" height="44" fill="#161b22"/><rect width="44" height="44" fill="#0A66C2"/><g fill="#ffffff"><circle cx="14" cy="13" r="2.3"/><rect x="12" y="18" width="4" height="14"/><path d="M20 18h4v2c1-1.6 2.5-2.5 4.7-2.5 4 0 5.3 2.5 5.3 6V32h-4v-7.8c0-2-.5-3.4-2.5-3.4-2.2 0-3.5 1.5-3.5 4V32h-4Z"/></g></g>
+  <rect x=".5" y=".5" width="147" height="43" rx="4" fill="none" stroke="#30363d"/>
+  <text x="57" y="27" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing=".5">LINKEDIN</text>
+</svg>

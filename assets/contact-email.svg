@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="44" viewBox="0 0 120 44" role="img" aria-labelledby="title">
+  <title id="title">Email</title>
+  <defs><clipPath id="badge"><rect x=".5" y=".5" width="119" height="43" rx="4"/></clipPath></defs>
+  <g clip-path="url(#badge)"><rect width="120" height="44" fill="#161b22"/><rect width="44" height="44" fill="#D73A32"/><g fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="11" y="14" width="22" height="16" rx="2"/><path d="M12 15l10 8 10-8"/></g></g>
+  <rect x=".5" y=".5" width="119" height="43" rx="4" fill="none" stroke="#30363d"/>
+  <text x="57" y="27" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="12.5" font-weight="600" letter-spacing=".5">EMAIL</text>
+</svg>

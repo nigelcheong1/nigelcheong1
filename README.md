@@ -7,7 +7,11 @@
 
 I build **AI systems that connect research with practical use**—from document intelligence and reinforcement-learning agents to semi-supervised 3D medical image segmentation.
 
-[LinkedIn](https://www.linkedin.com/in/nigel-cheong-118378254/) · [Email](mailto:nigelcheong05@gmail.com) · [Current research](#current-research)
+<p>
+  <a href="https://www.linkedin.com/in/nigel-cheong-118378254/"><img src="./assets/contact-linkedin.svg" height="44" alt="LinkedIn" /></a>
+  <a href="mailto:nigelcheong05@gmail.com"><img src="./assets/contact-email.svg" height="44" alt="Email Nigel Cheong" /></a>
+  <a href="#current-research"><img src="./assets/contact-research.svg" height="44" alt="Current research" /></a>
+</p>
 
 ## Featured Projects
 
