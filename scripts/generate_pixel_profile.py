@@ -27,7 +27,7 @@ CARDS = [('github-stats.svg', 'pixel-stats.svg', 'GitHub statistics and rank'),
          ('streak.svg', 'pixel-streak.svg', 'GitHub contribution streaks')]
 
 
-def frame_card(source: str, title: str) -> str:
+def frame_card(source: str, title: str, canvas=None) -> str:
     """Reuse the original cards, fully visible even when nested SVGs do not animate."""
     try:
         root = ET.fromstring(source)
@@ -60,9 +60,21 @@ def frame_card(source: str, title: str) -> str:
     source = (source.replace('</style>', settled + '</style>', 1) if '<style>' in source
               else source.replace('</svg>', '<style>' + settled + '</style></svg>'))
     embedded = 'data:image/svg+xml;base64,' + base64.b64encode(source.encode()).decode()
-    body = f'<path d="M6 0H{w+18}V6H{w+24}V{h+18}H{w+18}V{h+24}H6V{h+18}H0V6H6Z" fill="#0d1117" stroke="#456f4e" stroke-width="2"/>'
-    body += f'<image x="12" y="12" width="{w}" height="{h}" href="{embedded}"/>'
-    return svg(w+24, h+24, title, body)
+    cw, ch = canvas or (w+24, h+24)
+    scale = min(1, (cw-24)/w, (ch-24)/h)
+    iw, ih = w*scale, h*scale
+    body = f'<path d="M6 0H{cw-6}V6H{cw}V{ch-6}H{cw-6}V{ch}H6V{ch-6}H0V6H6Z" fill="#0d1117" stroke="#456f4e" stroke-width="2"/>'
+    body += f'<image x="{(cw-iw)/2}" y="12" width="{iw}" height="{ih}" href="{embedded}"/>'
+    return svg(cw, ch, title, body)
+
+
+def card_pair(stats: str, languages: str, mobile=False) -> str:
+    """Equal-sized panels, side by side on desktop and stacked on phones."""
+    x, y = (0, 243) if mobile else (515, 0)
+    body = stats.replace('<svg ', '<svg x="0" y="0" ', 1)
+    body += languages.replace('<svg ', f'<svg x="{x}" y="{y}" ', 1)
+    return svg(491 if mobile else 1006, 462 if mobile else 219,
+               'GitHub statistics and repository languages', body)
 
 
 def write_atomic(path: Path, content: str):
@@ -82,7 +94,7 @@ def refresh_statistics(username: str, directory: Path):
               'text_color': 'bac5d0', 'bg_color': '0d1117'}
     endpoints = [('api', 'github-stats.svg', {'show_icons': 'true', 'count_private': 'true',
                   'include_all_commits': 'true', 'icon_color': '56d364'}, 'commits'),
-                 ('api/top-langs/', 'github-languages.svg', {'layout': 'compact', 'langs_count': '8'}, 'lang-name')]
+                 ('api/top-langs/', 'github-languages.svg', {'layout': 'compact', 'langs_count': '8', 'card_width': '467'}, 'lang-name')]
     for endpoint, name, options, expected in endpoints:
         try:
             request = Request('https://github-stats-extended.vercel.app/' + endpoint + '?' + urlencode(common | options),
@@ -132,7 +144,11 @@ def main():
     if args.refresh_stats:
         refresh_statistics(args.username, args.output)
     for source, destination, title in CARDS:
-        outputs[destination] = frame_card((args.output / source).read_text(encoding='utf-8'), title)
+        canvas = (491, 219) if destination in ('pixel-stats.svg', 'pixel-languages.svg') else None
+        outputs[destination] = frame_card((args.output / source).read_text(encoding='utf-8'), title, canvas)
+    for mobile in (False, True):
+        name = 'analytics-pair' + ('-mobile' if mobile else '') + '.svg'
+        outputs[name] = card_pair(outputs['pixel-stats.svg'], outputs['pixel-languages.svg'], mobile)
     # Validate everything before replacing a displayed asset.
     for content in outputs.values():
         ET.fromstring(content)

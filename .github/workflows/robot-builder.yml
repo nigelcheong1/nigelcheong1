@@ -1,4 +1,4 @@
-name: Update pixel contribution calendar
+name: Update 3D contribution workshop
 
 on:
   schedule:
@@ -42,21 +42,24 @@ jobs:
       - name: Test data handling and animation
         run: python -m unittest discover -s tests -v
 
-      - name: Render actual contribution calendar and refresh cards
-        run: python scripts/generate_pixel_profile.py --username "$GITHUB_REPOSITORY_OWNER" --refresh-stats
+      - name: Render the actual 3D contribution calendar
+        run: python scripts/generate_robot_builder.py --username "$GITHUB_REPOSITORY_OWNER"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Refresh equal-sized statistics cards
+        run: python scripts/generate_pixel_profile.py --username "$GITHUB_REPOSITORY_OWNER" --frames-only --refresh-stats
 
       - name: Commit updated images
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/pixel-calendar*.svg assets/pixel-stats.svg assets/pixel-languages.svg assets/pixel-streak.svg assets/github-stats.svg assets/github-languages.svg
+          git add assets/robot-builder.gif assets/robot-builder.png assets/analytics-pair*.svg assets/pixel-stats.svg assets/pixel-languages.svg assets/pixel-streak.svg assets/github-stats.svg assets/github-languages.svg
           if git diff --cached --quiet; then
             echo "Contribution images are already current."
             exit 0
           fi
-          git commit -m "Update pixel contribution calendar [skip ci]"
+          git commit -m "Update 3D contribution workshop [skip ci]"
           for attempt in 1 2 3; do
             if ! git pull --rebase origin "$GITHUB_REF_NAME"; then
               git rebase --abort || true

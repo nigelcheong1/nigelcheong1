@@ -29,6 +29,17 @@ class PixelProfileTests(unittest.TestCase):
         self.assertTrue(all(node.attrib['fill'] == '#e4ece5' for node in cells))
         self.assertNotIn('@keyframes', ET.tostring(root, encoding='unicode'))
 
+    def test_matching_card_frames_preserve_source_proportions(self):
+        ns = '{http://www.w3.org/2000/svg}'
+        for w, h in [(467, 195), (300, 165)]:
+            source = f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}"><text>Existing data</text></svg>'
+            root = ET.fromstring(frame_card(source, 'Statistics', canvas=(491, 219)))
+            self.assertEqual(root.attrib['viewBox'], '0 0 491 219')
+            image = root.find(ns + 'image')
+            self.assertAlmostEqual(float(image.attrib['width']) / float(image.attrib['height']), w / h)
+            self.assertGreaterEqual(float(image.attrib['x']), 12)
+            self.assertEqual(float(image.attrib['y']), 12)
+
     def test_cached_cards_are_fully_visible_without_an_entrance_animation(self):
         source = '<svg xmlns="http://www.w3.org/2000/svg" width="467" height="195"><style>.stagger{opacity:0}</style><text class="stagger">210</text><circle class="rank-circle"/></svg>'
         result = frame_card(source, 'GitHub statistics')

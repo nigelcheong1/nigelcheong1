@@ -1,3 +1,11 @@
+# Current profile assets
+
+The contribution calendar displays the original animated 3D robot GIF (`robot-builder.gif`), with `robot-builder.png` for reduced motion. The daily workflow fetches and validates actual GitHub activity, runs the existing 3D renderer, and commits both images. It no longer regenerates the pixel calendar displayed in earlier revisions.
+
+Statistics and language cards share a 491 by 219 frame. The responsive `analytics-pair.svg` places them side by side with a gap; `analytics-pair-mobile.svg` stacks the same panels on phones. Their contents preserve their natural proportions. Both the calendar and streak workflows regenerate the pair when refreshing its source cards. The source language card requests the wider layout to use the available space.
+
+Earlier renderer documentation is retained below for reference; the current daily path is the 3D renderer plus `generate_pixel_profile.py --frames-only --refresh-stats`.
+
 # Pixel profile updates
 
 The README uses the approved animated pixel header, original research-room artwork and circular GitHub statistics cards. It contains native GitHub markup and self-contained image assets; no page JavaScript or preview controls are published.
