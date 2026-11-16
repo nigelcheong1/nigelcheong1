@@ -32,4 +32,4 @@
 <source media="(prefers-reduced-motion:reduce)" srcset="assets/pixel-calendar-still.svg">
 <source media="(max-width:600px)" srcset="assets/pixel-calendar-mobile.svg">
 <img src="assets/pixel-calendar.svg" alt="Robot calendar of my GitHub contributions over the last 365 days.">
-</picture><div align="center"><p>Interested in AI research or building useful systems?</p><a href="mailto:nigelcheong05@gmail.com"><img src="assets/pixel-get-in-touch.svg" width="236" height="48" alt="Get in touch by email"></a></div>
+</picture><div align="center"><p>Interested in AI research or building useful systems?</p><p><a href="https://www.linkedin.com/in/nigel-cheong-118378254/"><img src="assets/pixel-get-in-touch-linkedin.svg" width="236" height="48" alt="Get in touch on LinkedIn"></a></p><p><code>nigelcheong05@gmail.com</code></p></div>
