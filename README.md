@@ -1,8 +1,8 @@
 <picture>
-<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/arcade-hero-mobile-still.svg?v=2">
-<source media="(prefers-reduced-motion:reduce)" srcset="assets/arcade-hero-still.svg?v=2">
-<source media="(max-width:600px)" srcset="assets/arcade-hero-mobile.svg?v=2">
-<img width="100%" src="assets/arcade-hero.svg?v=2" alt="Nigel Cheong — AI and machine learning.">
+<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/profile-hero-mobile-still.svg">
+<source media="(prefers-reduced-motion:reduce)" srcset="assets/profile-hero-still.svg">
+<source media="(max-width:600px)" srcset="assets/profile-hero-mobile.svg">
+<img width="100%" src="assets/profile-hero.svg" alt="Nigel Cheong — AI and machine learning.">
 </picture><p>I build AI systems for <strong>document intelligence, medical imaging and intelligent agents.</strong></p><div><p>
   <a href="https://www.linkedin.com/in/nigel-cheong-118378254/"><img src="assets/pixel-contact-linkedin.svg" height="44" alt="LinkedIn" width="170"></a>
   <a href="mailto:nigelcheong05@gmail.com"><img src="assets/pixel-contact-email.svg" height="44" alt="Email Nigel Cheong" width="134"></a>
