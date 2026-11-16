@@ -47,3 +47,5 @@ python scripts/generate_robot_builder.py --username nigelcheong1
 The renderer validates calendar dates and nonnegative counts before generating anything. API or validation failures leave the last successful images in place. The height uses a logarithmic scale of the actual count, while the shade follows GitHub's contribution intensity level. Zero-contribution days stay flat; gray boundary tiles fall outside the displayed date range.
 
 Only Pillow is required. Windows uses Segoe UI; Ubuntu uses DejaVu Sans, with Pillow's default font as a fallback. Rendering is deterministic for the same input on the same platform.
+
+Research-room typing, cursor-click and right-console effects are regenerated with `python scripts/animate_research.py`. This composes the immutable original plate using clipped SVG layers, preserves the still versions, and enables motion only with no-preference.
