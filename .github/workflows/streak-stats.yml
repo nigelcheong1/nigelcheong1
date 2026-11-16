@@ -1,5 +1,9 @@
 name: Update GitHub Streak Stats
 
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: "15 0 * * *"
@@ -28,10 +32,18 @@ jobs:
           path: assets/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh the displayed circular cards
+        run: python scripts/generate_pixel_profile.py --frames-only
+
       - name: Commit updated streak
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/streak.svg
+          git add assets/streak.svg assets/pixel-streak.svg assets/pixel-stats.svg assets/pixel-languages.svg
           git commit -m "Update GitHub streak stats" || exit 0
           git push

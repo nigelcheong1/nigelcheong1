@@ -1,97 +1,35 @@
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/header-mobile-still.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/header-still.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/header-mobile.svg" />
-  <img src="./assets/header.svg" width="100%" alt="Nigel Cheong — AI and machine learning. From research to working systems." />
-</picture>
-
-I build **AI systems that connect research with practical use**—from document intelligence and reinforcement-learning agents to semi-supervised 3D medical image segmentation.
-
-<p>
-  <a href="https://www.linkedin.com/in/nigel-cheong-118378254/"><img src="./assets/contact-linkedin.svg" height="44" alt="LinkedIn" /></a>
-  <a href="mailto:nigelcheong05@gmail.com"><img src="./assets/contact-email.svg" height="44" alt="Email Nigel Cheong" /></a>
-  <a href="#current-research"><img src="./assets/contact-research.svg" height="44" alt="Current research" /></a>
-</p>
-
-## About
-
-- B.Eng. in Artificial Intelligence (Honours) at **Xiamen University Malaysia**
-- **Thesis: CPS-SemiSAM+** — semi-supervised 3D medical image segmentation with SAM-assisted prompt-stability supervision.
-- **Interests:** computer vision, medical AI, reinforcement learning, intelligent agents, and document intelligence.
-
-## Featured Projects
-
-| Project | What it does | Tech stack |
-| --- | --- | --- |
-| **Thesis: CPS-SemiSAM+**<br><sub>Repository coming soon</sub><br><sub>3D medical image segmentation</sub> | Researches semi-supervised segmentation with limited labelled data, using counterfactual prompt stability to refine SAM-assisted pseudo-label supervision. | `Python` `PyTorch` `SAM-Med3D` `3D U-Net` |
-| [DocIntel AI](https://github.com/nigelcheong1/docintel-ai)<br><sub>Document intelligence workspace</sub> | Extracts text from PDFs and images, retrieves relevant evidence, and provides cited answers, summaries, and study material with page-level source previews. | `Python` `TypeScript` `Next.js` `FastAPI` `PostgreSQL` `pgvector` `Tesseract` |
-| [Loupe](https://github.com/deettoh/halal-supplier-control)<br><sub>Halal supplier control workspace</sub> | Checks photographed ingredient labels against masterlist and certificate records, flags mismatches or expiry, and routes flagged deliveries to a supervisor. | `React` `Vite` `Tailwind CSS` `Python` `FastAPI` `PostgreSQL` `Qwen3-VL` `RunPod` |
-| [dPickleball](https://github.com/nigelcheong1/dpickleball-rl-agent)<br><sub>Reinforcement-learning game agent</sub> | Controls a paddle from camera observations using a calibrated simulator, PPO training, Unity fine-tuning, and self-play. Placed 3rd out of 13 teams. | `Python` `PyTorch` `OpenCV` `Stable-Baselines3` `Gymnasium` `Unity ML-Agents` |
-| [Skin-Lesion Classification](https://github.com/nigelcheong1/skin-lesion-classification)<br><sub>Computer vision model comparison</sub> | Compares custom CNNs with KAN–Vision Transformer hybrids for 14-class skin-condition classification, including preprocessing and evaluation. | `Python` `PyTorch` `torchvision` `timm` `OpenCV` `scikit-learn` `Jupyter` |
-
-## Current Research
-
-**Medical image segmentation with limited labels.** My thesis explores semi-supervised 3D imaging and how foundation models such as SAM can support more reliable, data-efficient segmentation.
-
+<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/arcade-hero-mobile-still.svg">
+<source media="(prefers-reduced-motion:reduce)" srcset="assets/arcade-hero-still.svg">
+<source media="(max-width:600px)" srcset="assets/arcade-hero-mobile.svg">
+<img width="100%" src="assets/arcade-hero.svg" alt="Nigel Cheong — AI and machine learning.">
+</picture><p>I build AI systems for <strong>document intelligence, medical imaging and intelligent agents.</strong></p><div><p>
+  <a href="https://www.linkedin.com/in/nigel-cheong-118378254/"><img src="assets/pixel-contact-linkedin.svg" height="44" alt="LinkedIn" width="170"></a>
+  <a href="mailto:nigelcheong05@gmail.com"><img src="assets/pixel-contact-email.svg" height="44" alt="Email Nigel Cheong" width="134"></a>
+  <a href="#current-research"><img src="assets/pixel-contact-research.svg" height="44" alt="Current research" width="170"></a>
+</p></div><a name="about"></a><h2><img src="assets/pixel-heading-about.svg" alt="About" width="113"></h2><ul><li>B.Eng. in Artificial Intelligence (Honours) at <strong>Xiamen University Malaysia</strong></li><li><strong>Thesis: CPS-SemiSAM+</strong></li></ul><a name="featured-projects"></a><h2><img src="assets/pixel-heading-featured-projects.svg" alt="Featured Projects" width="326"></h2><div role="region" aria-label="Featured Projects" tabindex="0"><table><thead><tr><th scope="col">Project</th><th scope="col">What it does</th><th scope="col">Tech stack</th></tr></thead><tbody><tr><th scope="row"><img src="assets/pixel-project-0.svg" width="22" height="22" alt=""><strong>Thesis: CPS-SemiSAM+</strong><br><sub>Repository coming soon</sub></th><td>Studies 3D segmentation with fewer labelled scans using SAM-assisted supervision and counterfactual prompt stability.</td><td><span>Python · PyTorch · SAM-Med3D · 3D U-Net</span></td></tr><tr><th scope="row"><a href="https://github.com/nigelcheong1/docintel-ai"><img src="assets/pixel-project-1.svg" width="22" height="22" alt=""><strong>DocIntel AI</strong></a></th><td>Turns PDFs and images into cited answers, summaries and study material with page-level source previews.</td><td><span>Python · TypeScript · Next.js · FastAPI · PostgreSQL · pgvector · Tesseract</span></td></tr><tr><th scope="row"><a href="https://github.com/deettoh/halal-supplier-control"><img src="assets/pixel-project-2.svg" width="22" height="22" alt=""><strong>Loupe</strong></a></th><td>Checks ingredient labels against masterlists and certificates, then routes mismatches or expired records for supervisor review.</td><td><span>React · Vite · Tailwind CSS · Python · FastAPI · PostgreSQL · Qwen3-VL · RunPod</span></td></tr><tr><th scope="row"><a href="https://github.com/nigelcheong1/dpickleball-rl-agent"><img src="assets/pixel-project-3.svg" width="22" height="22" alt=""><strong>dPickleball</strong></a><br><sub><strong>3rd / 13 teams</strong></sub></th><td>Trains a camera-based paddle agent using PPO, simulation, Unity fine-tuning and self-play.</td><td><span>Python · PyTorch · OpenCV · Stable-Baselines3 · Gymnasium · Unity ML-Agents</span></td></tr><tr><th scope="row"><a href="https://github.com/nigelcheong1/skin-lesion-classification"><img src="assets/pixel-project-4.svg" width="22" height="22" alt=""><strong>Skin-Lesion Classification</strong></a></th><td>Compares CNN and KAN–Vision Transformer models for 14-class skin-condition classification.</td><td><span>Python · PyTorch · torchvision · timm · OpenCV · scikit-learn · Jupyter</span></td></tr></tbody></table></div><a name="current-research"></a><h2><img src="assets/pixel-heading-current-research.svg" alt="Current Research" width="308"></h2>
+<p><strong>CPS-SemiSAM+</strong> — semi-supervised 3D medical image segmentation.</p>
+<ul><li><strong>Problem:</strong> learning to segment 3D medical images with limited labelled data.</li><li><strong>Approach:</strong> counterfactual prompt stability to refine SAM-assisted pseudo-label supervision.</li><li><strong>Status:</strong> thesis research; repository coming soon.</li></ul>
 <picture>
-  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/research-mobile-still.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/research-still.svg" />
-  <source media="(max-width: 600px)" srcset="./assets/research-mobile.svg" />
-  <img src="./assets/research.svg" width="100%" alt="Concept diagram: 3D medical images flow through SAM and semi-supervision into a segmentation volume. Schematic, not experimental results." />
-</picture>
-
-<sub>Research concept diagram; not an experimental result.</sub>
-
-**Current focus areas:** Medical Image Segmentation · Semi-Supervised Learning · Foundation Models · Segment Anything Model (SAM) · 3D Medical Imaging (MRI) · Computer Vision for Healthcare.
-
-## Tech Stack
-
-<table>
+<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/arcade-research-room-mobile-still.svg">
+<source media="(prefers-reduced-motion:reduce)" srcset="assets/arcade-research-room-still.svg">
+<source media="(max-width:600px)" srcset="assets/arcade-research-room-mobile.svg">
+<img src="assets/arcade-research-room.svg" alt="Pixel illustration of medical-image segmentation research.">
+</picture><p><code>3D Medical Imaging (MRI)</code> <code>Semi-Supervised Learning</code> <code>Foundation Models</code></p><a name="tech-stack"></a><h2><img src="assets/pixel-heading-tech-stack.svg" alt="Tech Stack" width="198"></h2><table>
 <tbody>
-<tr><th scope="row">Languages</th><td><img src="./assets/tech/python.svg" height="28" alt="Python" /> <img src="./assets/tech/c.svg" height="28" alt="C" /> <img src="./assets/tech/cplusplus.svg" height="28" alt="C++" /> <img src="./assets/tech/sql.svg" height="28" alt="SQL" /> <img src="./assets/tech/javascript.svg" height="28" alt="JavaScript" /></td></tr>
-<tr><th scope="row">AI / Machine Learning</th><td><img src="./assets/tech/pytorch.svg" height="28" alt="PyTorch" /> <img src="./assets/tech/tensorflow.svg" height="28" alt="TensorFlow" /> <img src="./assets/tech/scikit-learn.svg" height="28" alt="scikit-learn" /> <img src="./assets/tech/xgboost.svg" height="28" alt="XGBoost" /> <img src="./assets/tech/transformers.svg" height="28" alt="Transformers" /> <img src="./assets/tech/timm.svg" height="28" alt="timm" /></td></tr>
-<tr><th scope="row">Computer Vision &amp; Medical AI</th><td><img src="./assets/tech/opencv.svg" height="28" alt="OpenCV" /> <img src="./assets/tech/yolo.svg" height="28" alt="YOLO" /> <img src="./assets/tech/segment-anything-model-sam.svg" height="28" alt="Segment Anything Model (SAM)" /></td></tr>
-<tr><th scope="row">Reinforcement Learning</th><td><img src="./assets/tech/stable-baselines3.svg" height="28" alt="Stable-Baselines3" /> <img src="./assets/tech/gymnasium.svg" height="28" alt="Gymnasium" /> <img src="./assets/tech/unity-ml-agents.svg" height="28" alt="Unity ML-Agents" /></td></tr>
-<tr><th scope="row">Data &amp; Analytics</th><td><img src="./assets/tech/numpy.svg" height="28" alt="NumPy" /> <img src="./assets/tech/pandas.svg" height="28" alt="pandas" /> <img src="./assets/tech/apache-spark.svg" height="28" alt="Apache Spark" /></td></tr>
-<tr><th scope="row">Backend &amp; Apps</th><td><img src="./assets/tech/fastapi.svg" height="28" alt="FastAPI" /> <img src="./assets/tech/streamlit.svg" height="28" alt="Streamlit" /></td></tr>
-<tr><th scope="row">Databases &amp; Vector Search</th><td><img src="./assets/tech/postgresql.svg" height="28" alt="PostgreSQL" /> <img src="./assets/tech/pgvector.svg" height="28" alt="pgvector" /> <img src="./assets/tech/neo4j.svg" height="28" alt="Neo4j" /> <img src="./assets/tech/supabase.svg" height="28" alt="Supabase" /></td></tr>
-<tr><th scope="row">Dev Tools &amp; Containers</th><td><img src="./assets/tech/git.svg" height="28" alt="Git" /> <img src="./assets/tech/github.svg" height="28" alt="GitHub" /> <img src="./assets/tech/jupyter.svg" height="28" alt="Jupyter" /> <img src="./assets/tech/docker.svg" height="28" alt="Docker" /></td></tr>
-<tr><th scope="row">Deployment &amp; Hosting</th><td><img src="./assets/tech/render.svg" height="28" alt="Render" /> <img src="./assets/tech/vercel.svg" height="28" alt="Vercel" /> <img src="./assets/tech/netlify.svg" height="28" alt="Netlify" /></td></tr>
+<tr><th scope="row">Languages</th><td><img src="assets/tech/python.svg" height="28" alt="Python" width="82"> <img src="assets/tech/c.svg" height="28" alt="C" width="51"> <img src="assets/tech/cplusplus.svg" height="28" alt="C++" width="67"> <img src="assets/tech/sql.svg" height="28" alt="SQL" width="66"> <img src="assets/tech/javascript.svg" height="28" alt="JavaScript" width="98"></td></tr>
+<tr><th scope="row">AI / Machine Learning</th><td><img src="assets/tech/pytorch.svg" height="28" alt="PyTorch" width="88"> <img src="assets/tech/tensorflow.svg" height="28" alt="TensorFlow" width="105"> <img src="assets/tech/scikit-learn.svg" height="28" alt="scikit-learn" width="102"> <img src="assets/tech/xgboost.svg" height="28" alt="XGBoost" width="89"> <img src="assets/tech/transformers.svg" height="28" alt="Transformers" width="114"> <img src="assets/tech/timm.svg" height="28" alt="timm" width="73"></td></tr>
+<tr><th scope="row">Computer Vision &amp; Medical AI</th><td><img src="assets/tech/opencv.svg" height="28" alt="OpenCV" width="88"> <img src="assets/tech/yolo.svg" height="28" alt="YOLO" width="75"> <img src="assets/tech/segment-anything-model-sam.svg" height="28" alt="Segment Anything Model (SAM)" width="70"></td></tr>
+<tr><th scope="row">Reinforcement Learning</th><td><img src="assets/tech/stable-baselines3.svg" height="28" alt="Stable-Baselines3" width="137"> <img src="assets/tech/gymnasium.svg" height="28" alt="Gymnasium" width="108"> <img src="assets/tech/unity-ml-agents.svg" height="28" alt="Unity ML-Agents" width="134"></td></tr>
+<tr><th scope="row">Data &amp; Analytics</th><td><img src="assets/tech/numpy.svg" height="28" alt="NumPy" width="84"> <img src="assets/tech/pandas.svg" height="28" alt="pandas" width="82"> <img src="assets/tech/apache-spark.svg" height="28" alt="Apache Spark" width="117"></td></tr>
+<tr><th scope="row">Backend &amp; Apps</th><td><img src="assets/tech/fastapi.svg" height="28" alt="FastAPI" width="84"> <img src="assets/tech/streamlit.svg" height="28" alt="Streamlit" width="92"></td></tr>
+<tr><th scope="row">Databases &amp; Vector Search</th><td><img src="assets/tech/postgresql.svg" height="28" alt="PostgreSQL" width="106"> <img src="assets/tech/pgvector.svg" height="28" alt="pgvector" width="91"> <img src="assets/tech/neo4j.svg" height="28" alt="Neo4j" width="76"> <img src="assets/tech/supabase.svg" height="28" alt="Supabase" width="95"></td></tr>
+<tr><th scope="row">Dev Tools &amp; Containers</th><td><img src="assets/tech/git.svg" height="28" alt="Git" width="59"> <img src="assets/tech/github.svg" height="28" alt="GitHub" width="82"> <img src="assets/tech/jupyter.svg" height="28" alt="Jupyter" width="83"> <img src="assets/tech/docker.svg" height="28" alt="Docker" width="82"></td></tr>
+<tr><th scope="row">Deployment &amp; Hosting</th><td><img src="assets/tech/render.svg" height="28" alt="Render" width="81"> <img src="assets/tech/vercel.svg" height="28" alt="Vercel" width="77"> <img src="assets/tech/netlify.svg" height="28" alt="Netlify" width="79"></td></tr>
 </tbody>
-</table>
-
-## Areas of Interest
-
-<p><code>Deep Learning</code> <code>Computer Vision</code> <code>Medical Image Segmentation</code> <code>Medical Computer Vision</code> <code>Reinforcement Learning</code> <code>Foundation Models</code> <code>Semi-Supervised Learning</code> <code>AI Research</code></p>
-
-<details>
-<summary><img src="./assets/lab-bot.svg" width="25" height="26" alt="" /> Open the lab notes</summary>
-
-**What I am exploring**
-
-- Adapting foundation models to 3D medical segmentation.
-- Learning from limited labelled data and useful prompts.
-- Simulation, evaluation, and deployment of intelligent agents.
-
-The calendar below uses actual contribution counts and a daily GitHub Actions update. Its columns wobble automatically when the robot finishes a featured block.
-
-</details>
-
-## GitHub Analytics
-
-<div align="center">
-  <img height="165" src="https://github-stats-extended.vercel.app/api?username=nigelcheong1&amp;show_icons=true&amp;hide_border=true&amp;count_private=true&amp;include_all_commits=true&amp;title_color=7ee787&amp;icon_color=56d364&amp;text_color=bac5d0&amp;bg_color=0d1117" alt="Nigel's GitHub statistics" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=nigelcheong1&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;title_color=7ee787&amp;text_color=bac5d0&amp;bg_color=0d1117" alt="Nigel's repository language breakdown" />
-</div>
-
-<p align="center"><img src="./assets/streak.svg" alt="Nigel's total contributions, current streak, and longest streak" /></p>
-
-<picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/robot-builder.png" />
-  <img src="./assets/robot-builder.gif" width="100%" alt="A small robot builds Nigel's actual contribution calendar on white tiles. Taller green columns represent more contributions." />
-</picture>
-
----
-
-<p align="center">Interested in AI research or building useful systems?</p>
-<p align="center"><a href="mailto:nigelcheong05@gmail.com"><img src="./assets/get-in-touch.svg" width="220" height="48" alt="Get in touch by email" /></a></p>
+</table><a name="areas-of-interest"></a><h2><img src="assets/pixel-heading-areas-of-interest.svg" alt="Areas of Interest" width="320"></h2><p><code>Computer Vision</code> <code>Medical Imaging</code> <code>Reinforcement Learning</code> <code>Foundation Models</code> <code>Semi-Supervised Learning</code> <code>Document Intelligence</code> </p><a name="github-analytics"></a><h2><img src="assets/pixel-heading-github-analytics.svg" alt="GitHub Analytics" width="308"></h2><div align="center"><img src="assets/pixel-stats.svg" width="491" height="219" alt="Nigel’s GitHub statistics and rank."><img src="assets/pixel-languages.svg" width="324" height="189" alt="Nigel’s repository languages."></div><p align="center"><img src="assets/pixel-streak.svg" width="519" height="219" alt="Total contributions, current streak and longest streak."></p><picture>
+<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/pixel-calendar-mobile-still.svg">
+<source media="(prefers-reduced-motion:reduce)" srcset="assets/pixel-calendar-still.svg">
+<source media="(max-width:600px)" srcset="assets/pixel-calendar-mobile.svg">
+<img src="assets/pixel-calendar.svg" alt="Robot calendar of my GitHub contributions over the last 365 days.">
+</picture><div align="center"><p>Interested in AI research or building useful systems?</p><a href="mailto:nigelcheong05@gmail.com"><img src="assets/pixel-get-in-touch.svg" width="236" height="48" alt="Get in touch by email"></a></div>
