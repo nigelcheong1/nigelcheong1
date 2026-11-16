@@ -11,10 +11,10 @@
 <p><strong>CPS-SemiSAM+</strong> — semi-supervised 3D medical image segmentation.</p>
 <ul><li><strong>Problem:</strong> learning to segment 3D medical images with limited labelled data.</li><li><strong>Approach:</strong> counterfactual prompt stability to refine SAM-assisted pseudo-label supervision.</li><li><strong>Status:</strong> thesis research; repository coming soon.</li></ul>
 <picture>
-<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/research-workbench-mobile-still.svg">
-<source media="(prefers-reduced-motion:reduce)" srcset="assets/research-workbench-still.svg">
-<source media="(max-width:600px)" srcset="assets/research-workbench-mobile.svg">
-<img src="assets/research-workbench.svg" alt="Pixel illustration of medical-image segmentation research.">
+<source media="(max-width:600px) and (prefers-reduced-motion:reduce)" srcset="assets/arcade-research-room-mobile-still.svg">
+<source media="(prefers-reduced-motion:reduce)" srcset="assets/arcade-research-room-still.svg">
+<source media="(max-width:600px)" srcset="assets/arcade-research-room-mobile.svg">
+<img src="assets/arcade-research-room.svg" alt="Pixel illustration of medical-image segmentation research.">
 </picture><p><code>3D Medical Imaging (MRI)</code> <code>Semi-Supervised Learning</code> <code>Foundation Models</code></p><a name="tech-stack" id="tech-stack"></a><h2><img src="assets/pixel-heading-tech-stack.svg" alt="Tech Stack" width="198"></h2><table>
 <tbody>
 <tr><th scope="row">Languages</th><td><img src="assets/tech/python.svg" height="28" alt="Python" width="82"> <img src="assets/tech/c.svg" height="28" alt="C" width="51"> <img src="assets/tech/cplusplus.svg" height="28" alt="C++" width="67"> <img src="assets/tech/sql.svg" height="28" alt="SQL" width="66"> <img src="assets/tech/javascript.svg" height="28" alt="JavaScript" width="98"></td></tr>
